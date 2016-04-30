@@ -17,16 +17,16 @@ class MyFirstGUI:
 
     def new_contact(self):
         self.first_name_label = Label(master=None, text="First Name:")
-        self.first_name_label.pack(side=LEFT)
+        self.first_name_label.pack()
 
         self.first_name_entry = Entry(master=None)
-        self.first_name_entry.pack(side=LEFT)
+        self.first_name_entry.pack()
 
         self.last_name_label = Label(master=None, text="Last Name:")
-        self.last_name_label.pack(side=LEFT)
+        self.last_name_label.pack()
 
         self.last_name_entry = Entry(master=None)
-        self.last_name_entry.pack(side=LEFT)
+        self.last_name_entry.pack()
 
 root = Tk()
 my_gui = MyFirstGUI(root)
