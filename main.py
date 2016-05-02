@@ -6,7 +6,7 @@ class MyFirstGUI:
         self.master = master
         master.title("Address+")
 
-        self.label = Label(master, text="Welcome to Address+!")
+        self.label = Label(master, text="Welcome to Address Plus!")
         self.label.pack()
 
         self.new_contact_button = Button(master, text="Add Contact", command=self.new_contact)
