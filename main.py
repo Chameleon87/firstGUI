@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from Tkinter import *
+from Tkinter import mainloop, Tk, Label, Button, Entry
 
 
 class MyFirstGUI:
@@ -28,6 +28,12 @@ class MyFirstGUI:
 
         self.last_name_entry = Entry(master=None)
         self.last_name_entry.pack()
+
+        self.contact_number_label = Label(master=None, text="Phone Number:")
+        self.contact_number_label.pack()
+
+        self.contact_number_entry = Entry(master=None)
+        self.contact_number_entry.pack()
 
 root = Tk()
 my_gui = MyFirstGUI(root)
