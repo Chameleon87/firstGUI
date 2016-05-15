@@ -1,6 +1,7 @@
 #!/usr/bin/python
 from Tkinter import *
 
+
 class MyFirstGUI:
     def __init__(self, master):
         self.master = master
@@ -31,4 +32,3 @@ class MyFirstGUI:
 root = Tk()
 my_gui = MyFirstGUI(root)
 root.mainloop()
-
