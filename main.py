@@ -1,5 +1,7 @@
 #!/usr/bin/python
-from Tkinter import mainloop, Tk, Label, Button, Entry
+from Tkinter import mainloop, Tk, Label, Button, Entry, Menu
+
+root = Tk()
 
 
 class MyFirstGUI:
@@ -35,6 +37,6 @@ class MyFirstGUI:
         self.contact_number_entry = Entry(master=None)
         self.contact_number_entry.pack()
 
-root = Tk()
+
 my_gui = MyFirstGUI(root)
 root.mainloop()
